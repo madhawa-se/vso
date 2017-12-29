@@ -1,0 +1,9 @@
+# www.x2interactive.gr robots.txt
+
+User-agent: *
+Allow: /
+Disallow: /cgi-bin
+
+# Sitemap
+
+Sitemap: http://www.villamykonosaquapearl.gr/sitemap_index.xml

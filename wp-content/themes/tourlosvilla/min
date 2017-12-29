@@ -1,0 +1,13 @@
+//css
+
+cat js/fancybox/jquery.fancybox.css css/jquery-ui-1.11.2.custom/jquery-ui.css css/bootstrap.css css/styles.css > css/all.css
+
+
+minify --output css/all.min.css css/all.css 
+
+
+//js
+
+cat css/jquery-ui-1.11.2.custom/jquery-ui.js js/jquery.backstretch__seoalt.js js/modernizr.js js/bootstrap.js js/fancybox/jquery.fancybox.pack.js js/wow.js js/jquery.stellar.js js/plugins.js js/scripts.js > js/all.js
+
+uglifyjs js/all.js -o js/all.min.js -c -m    

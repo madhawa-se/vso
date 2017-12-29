@@ -1,0 +1,32 @@
+body {
+    &.wp-admin {
+        div#wpwrap {
+            div#wpcontent {
+                div.quicklinks {
+                    ul#wp-admin-bar-root-default {
+                        li#wp-admin-bar-wp-logo {
+                            > a.ab-item {
+                                span {
+                                    display: none;
+                                }
+                                width: 35px;
+                                height: 32px;
+                                background: url("../images/logoadmin_blue.png") no-repeat center center transparent;
+                                background-size: 35px 32px;
+                                text-indent: -9999px;
+                                display: block;
+                                padding: 0;
+                                @media screen and (max-width:782px) {
+                                    height: 46px;
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+

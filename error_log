@@ -1,0 +1,1 @@
+[27-Dec-2017 22:16:44 America/Chicago] PHP Warning:  ZipArchive::extractTo(//favicon.ico): failed to open stream: Permission denied in /home/villasophiamykon/public_html/extract.php on line 4

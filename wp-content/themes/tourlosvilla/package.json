@@ -1,0 +1,22 @@
+{
+  "name": "x2",
+  "version": "1.0.0",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.6",
+    "gulp-concat": "^2.6.0",
+    "gulp-install": "^0.6.0",
+    "gulp-minify": "0.0.7",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-scss": "^1.4.0",
+    "run-sequence": "^1.2.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.22.0",
+    "gulp": "^3.9.1"
+  }
+}
