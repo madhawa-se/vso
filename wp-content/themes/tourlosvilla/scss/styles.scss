@@ -869,7 +869,7 @@ $ThemeColorLight : #88b6cf;
         text-decoration: none;
         border: none;
         position: relative;
-        background: #89d2ed;
+        background: $colorBrownLight;
         min-width: 200px;
         margin-left: 6px;
         @include x2-border-radius(0);
@@ -1063,7 +1063,7 @@ $ThemeColorLight : #88b6cf;
             }
         }
         &.widthArrow {
-            background: #89d2ed;
+            background: $colorBrownLight;
             &:after {
                 display: block;
                 border-bottom-color: #89d2ed;
@@ -2274,7 +2274,7 @@ body {
                     }
                     > a { 
                         padding: 0 9px;
-                        border-right: thin solid #dee5e7;
+                        border-right: thin solid #a08b6c;
                         > span {
                             display: none;
                         }
@@ -2385,7 +2385,7 @@ body {
                                 } 
                             }
                             &:hover {
-                                > a { color: #ffffff; background: #89d2ed; }
+                                > a { color: #ffffff; background: $colorBrownLight; }
                             }
                             &.dropdown-submenu {
                                 a {
